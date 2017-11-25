@@ -1,4 +1,4 @@
-# Swift3 CoreBluetooth Programing Basic Project
+# Swift CoreBluetooth Programing Basic Project
 
 # About Core Bluetooth
 
