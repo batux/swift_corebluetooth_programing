@@ -116,9 +116,6 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
         
         let messageData = self.messageTxt.text?.data(using: .utf8)
         
-        //var rawArray:[UInt8] = [0x01];
-        //let data = NSData(bytes: &rawArray, length: rawArray.count)
-        
         self.peripheral.writeValue(messageData as! Data, for: self.selectedCharacteristic, type: CBCharacteristicWriteType.withResponse)
     }
     
